@@ -1,0 +1,416 @@
+{% extends 'theme.html' %}
+{% block content %}
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- To load static -->
+{% load static %}
+
+
+
+
+<!-- coursel -->
+<section>
+    <style>
+
+        .video-container {
+            position: relative;
+            width: 100%;
+        }
+        
+        .video-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+        }
+        
+        .video-overlay h1 {
+            font-size: 36px;
+            color: rgba(255, 255, 255, 0.742);
+            text-shadow: 2px 2px 4px rgb(129, 165, 231);
+          
+        }
+        
+        .video-overlay img {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin-top: 20px;
+        }
+    </style>
+    <div class="video-container">
+        <video class="w-100" autoplay loop muted>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-scientist-types-on-computer-with-3d-dna-and-brain-models-5664-large.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay">
+            <h1 style="font-weight: 800;font-size: 90px;">The Apollo World of Care</h1>
+            <span style="color: rgb(8, 8, 158);font-size: 23px;font-weight: 300;">Good health and good sense are two of life's greatest blessings.</span>
+            <!-- <h6 style="font-size: 25px;font-weight: 500;"> The best of modern healthcare to ensure you stay healthy, always.</h6> -->
+            <img src="https://www.apollohospitals.com/kochiapolloconsultleads/assets/img/logo-w.png" alt="Your Image">
+        </div>
+    </div>
+    <!-- END -->
+
+</section>
+<br><br>
+
+
+
+
+
+
+<!-- Centres of Excellence -->
+<SECtion>
+  <h1 style="
+	font-size: 50px;
+	font-weight: 600;
+	background-image: background: #FF4400;
+background: linear-gradient(to bottom left, #FF4400 41%, #1B51CF 68%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+;;
+	color: transparent;
+	text-align: center;
+	background-clip: text;
+	-webkit-background-clip: text;">Centres of Excellence</h1>
+  <style>
+    .box-container1 {
+      display: flex;
+      justify-content:center;
+    }
+  
+    .box1 {
+      width: calc(16.666% - 20px);
+      background-color: #ffffff00;
+      border-radius: 50%;
+      padding: 45px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      mix-blend-mode: color-burn;
+    }
+  
+    .box1 img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+  </style>
+  
+  <div class="box-container1">
+    <div class="box1">
+      <img src="https://w7.pngwing.com/pngs/601/514/png-transparent-cardiology-heart-health-care-computer-icons-medicine-heart.png" alt="Image 1">
+      <h5>Cardiology</h5>
+    </div>
+    <div class="box1">
+      <img src="https://icon2.cleanpng.com/20201029/pse/transparent-symbol-ribbon-world-cancer-day-5f9a8109276bc8.5156436416039610971615.jpg" alt="Image 2">
+      <h5>Oncology</h5>
+    </div>
+    <div class="box1">
+      <img src="https://w7.pngwing.com/pngs/349/634/png-transparent-urology-hospital-physician-medicine-specialty-others-logo-medicine-hospital.png" alt="Image 3">
+      <h5>Nephrology</h5>
+    </div>
+    <div class="box1">
+      <img src="https://www.clipartmax.com/png/middle/382-3824185_orthopedic-surgery-orthopedic-surgery.png" alt="Image 4" style="object-fit:cover;">
+      <h5>Orthopaedics</h5>
+    </div>
+    <div class="box1">
+      <img src="https://www.bansalneuro.com/favicon.ico" alt="Image 5">
+      <h5>Neurology </h5>
+    </div>
+    <div class="box1">
+      <img src="https://icon2.cleanpng.com/20181125/wvk/kisspng-gastrointestinal-tract-large-intestine-gastrointes-exeter-acupuncture-amp-osteopathy-at-estuary-cli-5bfa3007c19c36.362095551543122951793.jpg" alt="Image 6" style="mix-blend-mode:color-burn;">
+      <h5>Gastroenterology</h5>
+    </div>
+  </div>
+  
+</SECtion>
+<!-- end -->
+<br><br>
+
+
+
+
+
+
+<!--We are Covid Safe  -->
+
+<section id="how-it-works" class="ts-block text-center top-speciality covid-safe">
+
+  <h1 style="
+	font-size: 50px;
+	font-weight: 600;
+	background-image: background: #FF4400;
+background: linear-gradient(to bottom left, #FF4400 41%, #1B51CF 68%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+;;
+	color: transparent;
+	text-align: center;
+	background-clip: text;
+	-webkit-background-clip: text;"
+  	>We are Covid Safe</h2>
+
+	<div class="container">
+		<div class="ts-title">
+			<p>While these challenging times have brought many changes, at Apollo Hospitals one thing remained the same – Our commitment to the safety of our patients, their loved ones and our staff. We have established a safe environment and were among the first in the country to implement a range of rigorous protocols, which includes the following:  </p>
+		</div>
+		<!--end ts-title-->
+
+
+		<style>
+				.covid-safe-wrap {
+				/* border: 1px solid #04b7c4; */
+				padding: 10px;
+				margin-bottom: 20px;
+				/* background-color: #78f7e6; */
+        border: #f71602;
+				background: rgb(235, 55, 14);
+				background: linear-gradient(90deg, rgba(14,235,225,1) 0%, rgba(24,238,222,1) 35%, rgba(38,135,124,1) 100%);}
+		</style>
+
+<div class="opacity-25">
+		<div class="row">
+			<div class="col-sm-4 col-xs-6">
+				<div class="covid-safe-wrap">
+					<a href="#SanitationMethods"> 
+						<img src="https://www.apollohospitals.com/kochiapolloconsultleads/assets/img/ExtraSanitation.png">
+						<h5 class="acr-txt">Extra Sanitation Methods</h5>
+						
+					</a>
+					<p>Disinfecting all areas and frequently touched surfaces continuously Sanitation refers to public health conditions related to clean drinking water and treatment and disposal of human excreta and sewage.</p>
+				</div>
+
+			</div>
+
+			<div class="col-sm-4 col-xs-6">
+				<div class="covid-safe-wrap">
+				   <a href="#SocialDistancing"> 
+					<img src="https://www.apollohospitals.com/kochiapolloconsultleads/assets/img/socialdistancing.png">
+					<h5 class="acr-txt">Social Distancing</h5>
+				   </a>
+				   <p>Following social distancing protocols by implementing limited visitations, new waiting room protocols and other measures so you can safely practice social distancing and keep yourself and others safe.   </p>
+				  </div>
+			</div>
+			<div class="col-sm-4  col-xs-6">
+				<div class="covid-safe-wrap">
+					<a href="#FaceMask"> 
+					<img src="https://www.apollohospitals.com/kochiapolloconsultleads/assets/img/facemask.png">
+					<h5 class="acr-txt">Face Mask</h5>
+						</a>
+						<p>Mandating all patients and staff to wear face masks. They Prevent Presymptomatic Spread, Preventing Others From Getting Sick. In other words, you could be carrying the virus in your body before you get any symptoms </p>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-6">
+				<div class="covid-safe-wrap">
+					<a href="#Screening"> 
+					<img src="https://www.apollohospitals.com/kochiapolloconsultleads/assets/img/screening.png">
+					<h5 class="acr-txt">Screening at the entrance</h5>
+						</a>
+						<p>Screening of all visitors, including patients upon arrival Screening all patients for COVID-19 symptoms upon arrival.</p>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-6">
+				<div class="covid-safe-wrap">
+					<a href="#Testing"> 
+					<img src="https://www.apollohospitals.com/kochiapolloconsultleads/assets/img/testingourstaff.png">
+					<h5 class="acr-txt">Testing our staff regularly</h5>
+						</a>
+					   <p>Testing our staff regularly for COVID-19 .To ensure the safety of your staff, it is important to take swab samples to test for COVID-19</p>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-6">
+				<div class="covid-safe-wrap">
+					 <a href="#Treatment"> 
+					<img src="https://www.apollohospitals.com/kochiapolloconsultleads/assets/img/separatewaiting.png">
+					<h5 class="acr-txt">Separate Waiting &amp; Treatment Area</h5>
+						 </a>
+						 <p>Your safety is our priority. We implemented strict  practices to separate COVID-19-positive and symptomatic patients from others. </p>
+				</div>
+			</div>
+		</div>
+		<!--end row-->
+	</div>
+</div>
+	<!--end container-->
+</section>
+<!-- end -->
+<br><br>
+
+
+
+<!-- doctors details loop -->
+ 
+<style>
+  h1{
+            font-size:25px;
+            text-align:center;
+        }
+        .profile-card{
+            margin-bottom:10px;
+        }
+        .profile-card .profile-img{
+            position: relative;
+            overflow: hidden;
+        }
+        .profile-card .profile-img::after{
+            content:"";
+            border: 1px solid #fff;
+            position:absolute;
+            width:100%;
+            height:100%;
+            left:0;
+            top:0;
+            opacity:0;
+            transform: scale(1,1);
+            transition: all 0.50s linear 0s;
+        }
+        .profile-card:hover .profile-img:after{
+            transform:scale(0.9,0.9);
+            opacity:1;
+        }
+        .profile-card .profile-img img{
+            width:100%;
+            height:auto;
+            transform:scale(1,1);
+            transition: all 0.50s linear 0s;
+        }
+        .profile-card:hover img{
+            transform:scale(1.2,1.2);
+        }
+        .profile-card .profile-img .over-layer{
+            position: absolute;
+            width:100%;
+            height:100%;
+            top:0;
+            left:0;
+            opacity:0;
+            padding:10% 9%;
+            text-align:left;
+            background:rgba(255,255,255,0.4);
+            transform: scale(0,0);
+            transition: all 0.50s ease 0.5s;
+        }
+        .profile-card:hover .over-layer{
+            opacity:1;
+            transform: scale(0.9,0.9);
+        }
+        .profile-card .profile-img .over-layer p{
+            font-size:14px;
+            color:#fff;
+            text-transform:capitalize;
+        }
+        .profile-card .profile-img .over-layer-one .title > span{
+            display: block;
+            margin:5px 0;
+        }
+        .profile-card .profile-content{
+            background:#0099ff;
+            text-align:center;
+            padding:15px;
+        }
+        .profile-card .profile-content .title{
+            font-size:20px;
+            color:#fff;
+            margin:0 0 10px;
+            text-transform: uppercase;
+        }
+        .profile-card .profile-content .title > span{
+            font-size:16px;
+            color:#FFFFff;
+            margin:0 7px;
+            text-transform: capitalize;
+        }
+        .profile-card .profile-content .social-link{
+            margin:0;
+            padding:0;
+        }
+        .profile-card .profile-content .social-link li{
+            display:inline-block;
+            list-style:none;
+            margin:0 5px;
+        }
+        .profile-card .profile-content .social-link li a{
+            display:inline-block;
+            width:30px;
+            height:30px;
+            color:#ff5608;
+            line-height:30px;
+            text-align: center;
+            background: rgba(255,255,255,0.5);
+        }
+        .profile-card .profile-content .social-link li a:hover{
+            text-decoration:none;
+        }
+</style>
+
+
+<div class="container">
+    <h1 style="
+    font-size: 50px;
+    font-weight: 600;
+    background-image: background: #FF4400;
+  background: linear-gradient(to bottom left, #FF4400 41%, #1B51CF 68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  ;;
+    color: transparent;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;">Our Doctors</h1>
+    <div class="row">
+      {% for item in DOCTORSS %}
+        <div class="col-md-3 col-sm-6">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img src="{{ item.doc_image}}" alt="image"/>
+                    <div class="over-layer">
+                        <p>{{ item.doc_degree }},{{ item.doc_specialised }}</p>
+                    </div>
+                </div>
+                <div class="profile-content">
+                    <h3 class="title">{{ item.doc_name }}</h3>
+                    <a href=""><button class="button-33" role="button">Appoinment</button></a>
+                </div>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+
+<!-- HTML !-->
+
+
+<style>
+.button-33 {
+  background-color: #f78a31;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+</style>
+{% endblock  %}

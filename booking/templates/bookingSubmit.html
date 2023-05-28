@@ -1,0 +1,84 @@
+<title>Online Booking</title>
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'users/css/booking.css' %}" type="text/css">
+
+
+
+
+{% if user.is_authenticated %}
+<!-- <h1 class="text-center fPersian mt-3">ONLINE APPOINMENT</h1>
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black text-center m-5">
+    <form method="post" action="{% url 'bookingSubmit' %}" class="me-2 ms-2" required>
+        {% csrf_token %}
+        
+     
+        <h3 class="text-center fPersian mt-4">Time:</h3>
+        <div>
+            <select class="form-select fs-3 text-center" name="time">
+                {% for time in times %}
+                <option value="{{time}}">{{time}}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary text-white mt-3 fPersian">Submit</button>
+
+    </form>
+</div> -->
+
+{% else %}
+
+<div class="shadow p-4 mb-5 bg-body bg-body rounded text-black  m-5">
+    <h1 class="p-2  me-3">First Sign in!</h1>
+    <a href="{% url 'login' %}" class="btn btn-primary text-white">Sign in</a>
+</div>
+
+{% endif %}
+
+
+
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-md-push-5">
+                    <div class="booking-cta">
+                        <h1>Not Sure Which Doctor to Consult?</h1>
+                        <span style="font-size: 50px; color: #062c6d; font-weight: bold;">We are Here to Help!</span>
+                        <p>
+                            Safest Treatment by Expert Apollo Doctors in India.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-pull-7">
+                    <div class="booking-form">
+                        <form method="post" action="{% url 'bookingSubmit' %}" class="me-2 ms-2" required>
+                            {% csrf_token %}
+                            
+                            <!--input time-->
+                            <h3 class="text-center fPersian mt-4">Time:</h3>
+                            <div>
+                                <select class="form-select fs-3 text-center" name="time">
+                                    {% for time in times %}
+                                    <option value="{{time}}">{{time}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                    
+                            <button type="submit" class="btn btn-primary text-white mt-3 fPersian">Submit</button>
+                    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

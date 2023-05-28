@@ -1,0 +1,180 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarCenteredExample"
+        aria-controls="navbarCenteredExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarCenteredExample"
+      >
+        <!-- Left links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Doctors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+
+
+  <span class="slick-prev slick-navigation slick-arrow" style="display: block;"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+
+
+
+
+
+
+
+
+
+
+
+  1111111111111111111111111
+  map
+
+  <div class="block block--layout-builder block--inline-blockparagraph-block" id="">
+	<div class="field field--name-field-body-component field--type-entity-reference-revisions field--label-hidden field__items">
+		<div class="field__item">
+			<div class="paragraph paragraph--type--_-column-places-nearby paragraph--view-mode--default places--nearby--component">
+				<div class="container-fluid px-md-0">
+					<div class="container-fluid px-0">
+						<div class="row m-0">
+							<div class="places--nearby--inner col-md-6" style="padding-left: 136.5px;">
+								<h2><div class="field field--name-field-title field--type-string field--label-hidden field__item">Places Nearby</div></h2>
+								<div class="places--nearby--excerpt">
+									<div class="field field--name-field-excerpt field--type-text-long field--label-hidden field__item">
+										<p>While you are undergoing treatment at Aster, there is no reason that you cannot explore nearby attractions. Below are some of our must-visit recommendations.</p>
+									</div>
+								</div>
+								<div class="field field--name-field-items-component field--type-entity-reference-revisions field--label-hidden field__items">
+									<div class="field__item">
+										<div class="paragraph paragraph--type--places-nearby-sub-component paragraph--view-mode--default">
+											<div class="places--nearby--card--outer col-12">
+												<div class="places--nearby--card--inner row align-items-center">
+													<div class="transport--icon">
+														<div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"> 
+															<img src="/sites/default/files/2020-12/Group%203460.png" width="47" height="47" alt="Group 3460.png" loading="lazy" typeof="foaf:Image">
+														</div>
+													</div>
+													<div class="transport--details">
+														<div class="distance--title">
+															<div class="field field--name-field-title field--type-string field--label-hidden field__item">Nedumbassery Airport (CIAL)</div>
+														</div>
+														<div class="distance--excerpt">
+															<div class="field field--name-field-excerpt field--type-text-long field--label-hidden field__item">
+																<p>Approximate Travel Time: 36&nbsp;min</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="field__item">
+										<div class="paragraph paragraph--type--places-nearby-sub-component paragraph--view-mode--default">
+											<div class="places--nearby--card--outer col-12">
+												<div class="places--nearby--card--inner row align-items-center">
+													<div class="transport--icon">
+														<div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"> 
+															<img src="/sites/default/files/2020-12/Group%203464.png" width="47" height="47" alt="Name Group 3464.png" loading="lazy" typeof="foaf:Image">
+														</div>
+													</div>
+													<div class="transport--details">
+														<div class="distance--title">
+															<div class="field field--name-field-title field--type-string field--label-hidden field__item">Edappaly metro station</div>
+														</div>
+														<div class="distance--excerpt">
+															<div class="field field--name-field-excerpt field--type-text-long field--label-hidden field__item">
+																<p>Approximate Travel Time: 20min</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="field__item">
+										<div class="paragraph paragraph--type--places-nearby-sub-component paragraph--view-mode--default">
+											<div class="places--nearby--card--outer col-12">
+												<div class="places--nearby--card--inner row align-items-center">
+													<div class="transport--icon">
+														<div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item"> 
+															<img src="/sites/default/files/2020-12/Group%203464.png" width="47" height="47" alt="Name Group 3464.png" loading="lazy" typeof="foaf:Image">
+														</div>
+													</div>
+													<div class="transport--details">
+														<div class="distance--title">
+															<div class="field field--name-field-title field--type-string field--label-hidden field__item">Aluva Railway Station</div>
+														</div>
+														<div class="distance--excerpt">
+															<div class="field field--name-field-excerpt field--type-text-long field--label-hidden field__item">
+																<p>Approximate Travel Time: 25min</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="field__item">
+										<div class="paragraph paragraph--type--places-nearby-sub-component paragraph--view-mode--default">
+											<div class="places--nearby--card--outer col-12">
+												<div class="places--nearby--card--inner row align-items-center">
+													<div class="transport--icon">
+														<div class="field field--name-field-image field--type-entity-reference field--label-hidden field__item">
+															 <img src="/sites/default/files/2020-12/Group%203467.png" width="47" height="47" alt="Group 3467.png" loading="lazy" typeof="foaf:Image">
+															</div>
+														</div>
+														<div class="transport--details">
+															<div class="distance--title">
+																<div class="field field--name-field-title field--type-string field--label-hidden field__item">Cheranallor bus stop</div>
+															</div>
+															<div class="distance--excerpt">
+																<div class="field field--name-field-excerpt field--type-text-long field--label-hidden field__item">
+																	<p>Approximate Travel Time: 3.3&nbsp;min</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="map" class="col-md-6" style="height: 609.375px;">
+									<div class="field field--name-field-map-iframe field--type-text-long field--label-hidden field__item">
+										<p><iframe allowfullscreen="" height="450" loading="lazy" src="https://www.https://www.google.com/maps/place/Apollo+Adlux+Hospital,+Near+Adlux+convention+center+Cable+Junction+Ernakulam+District,+National+Highway+47+Karukutty,+Angamaly,+Kerala+683576/@10.2467241,76.3873547,13z/data=!4m9!1m2!2m1!1sApollo+Hospital+near+Kochi,+Kerala!3m5!1s0x3b080725823ffa3f:0x5c9ff49849b69126!8m2!3d10.2396817!4d76.372493!16s%2Fg%2F11fhvdh__w" style="border: 0px; height: 609.375px;" width="600"></iframe></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

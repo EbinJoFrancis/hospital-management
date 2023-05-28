@@ -1,0 +1,74 @@
+/* coursel */
+
+        .video-container {
+          position: relative;
+          width: 100%;
+        }
+
+        .video-overlay {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          z-index: 1;
+        }
+
+        .video-overlay h1 {
+          font-size: 36px;
+          color: rgba(255, 255, 255, 0.742);
+          text-shadow: 2px 2px 4px rgb(129, 165, 231);
+
+        }
+
+        .video-overlay img {
+          width: 200px;
+          height: 200px;
+          object-fit: contain;
+          margin-top: 20px;
+        }
+
+
+
+
+
+/* Centres of Excellence */
+
+        .box-container {
+          display: flex;
+          justify-content:center;
+        }
+
+        .box {
+          width: calc(16.666% - 20px);
+          background-color: #ffffff00;
+          border-radius: 50%;
+          padding: 45px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          mix-blend-mode: color-burn;
+        }
+
+        .box img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin-bottom: 10px;
+        }
+
+
+
+/* We are Covid Safe */
+
+        .covid-safe-wrap {
+          /* border: 1px solid #04b7c4; */
+          padding: 10px;
+          margin-bottom: 20px;
+          /* background-color: #78f7e6; */
+          border: #f71602;
+          background: rgb(235, 55, 14);
+          background: linear-gradient(90deg, rgba(14,235,225,1) 0%, rgba(24,238,222,1) 35%, rgba(38,135,124,1) 100%);}
+
+
